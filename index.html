@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InstaStyle — Minimal Photo Feed</title>
+
+  <!-- Tipografía moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header con logo y menú -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">📸 InstaStyle</div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Buscar..." aria-label="Buscar publicaciones">
+      </div>
+
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Explorar</a></li>
+        <li><a href="#">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="feed">
+    <section class="gallery">
+      <!-- Cada imagen es un artículo individual -->
+      <article class="post">
+        <img src="https://source.unsplash.com/random/400x400?nature" alt="Foto aleatoria de naturaleza">
+        <div class="caption">Paisaje natural 🌿</div>
+      </article>
+
+      <article class="post">
+        <img src="https://source.unsplash.com/random/400x400?city" alt="Foto aleatoria de ciudad">
+        <div class="caption">Luz de ciudad ✨</div>
+      </article>
+
+      <article class="post">
+        <img src="https://source.unsplash.com/random/400x400?art" alt="Foto aleatoria artística">
+        <div class="caption">Inspiración artística 🎨</div>
+      </article>
+
+      <article class="post">
+        <img src="https://source.unsplash.com/random/400x400?travel" alt="Foto de viaje">
+        <div class="caption">Aventura sin límites 🌍</div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer limpio -->
+  <footer class="footer">
+    <p>© 2025 InstaStyle — Diseñado con ❤️ por un desarrollador minimalista</p>
+    <nav>
+      <a href="#">Privacidad</a> •
+      <a href="#">Términos</a> •
+      <a href="#">Contacto</a>
+    </nav>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
